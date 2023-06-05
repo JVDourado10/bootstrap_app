@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./lib/css_bootstrap.min.css">
+  <title>eVinos</title>
+</head>
+
+<body>
+  <header>
+    <div class="container bg-dar">
+      <div class="row align-items-center">
+        <div class="col-6">
+          <h1>eVinos</h1>
+        </div>
+        <nav class="col-6">
+          <ul class="nav justify-content-end">
+            <li class="nav-item"><a class="nav-link" href="#produtos">Produtos</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <div id="carousel-vinhos" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner" style="height: 500px;">
+      <div class="carousel-item active" data-bs-interval="3000">
+        <img src="./images/klara-kulikova-CPMZguYURMw-unsplash (2) (1).jpg" class="w-100 d-block">
+      </div>
+      <div class="carousel-item" data-bs-interval="3000">
+        <img src="./images/scott-warman-h4AGlo55tTA-unsplash (1).jpg" class="w-100 d-block">
+      </div>
+      <div class="carousel-item" data-bs-interval="3000">
+        <img src="./images/biljana-martinic-IGJ_21drT3g-unsplash (2) (1).jpg" class="w-100 d-block">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carousel-vinhos" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carousel-vinhos" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden"></span>
+    </button>
+  </div>
+
+  <section id="produtos" class="container mt-5">
+    <h2 class="border-bottom p-2 mb-4">Produtos</h2>
+    <div class="row">
+      <div class="col-12 col-sm-6 col-lg-4 mb-3">
+        <div class="card">
+          <div class="d-flex justify-content-center mt-3 mb-3">
+            <img src="./images/vinho1.webp" alt="Vinho 1" class="w-25 justify-self-center">
+          </div>
+          <div class="card-body d-grid">
+            <h4 class="card-title fs-2 d-flex">Vinho 1</h4>
+            <p class="card-text fs-4">R$ 100,00</p>
+            <a href="#" class="btn btn-primary">Adicionar +</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-lg-4 mb-3">
+        <div class="card">
+          <div class="d-flex justify-content-center mt-3 mb-3">
+            <img src="./images/vinho1.webp" alt="Vinho 1" class="w-25 justify-self-center">
+          </div>
+          <div class="card-body d-grid">
+            <h4 class="card-title fs-2 d-flex">Vinho 2</h4>
+            <p class="card-text fs-4">R$ 150,00</p>
+            <a href="#" class="btn btn-primary">Adicionar +</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-lg-4 mb-3">
+        <div class="card">
+          <div class="d-flex justify-content-center mt-3 mb-3">
+            <img src="./images/vinho1.webp" alt="Vinho 1" class="w-25 justify-self-center">
+          </div>
+          <div class="card-body d-grid">
+            <h4 class="card-title fs-2 d-flex">Vinho 3</h4>
+            <p class="card-text fs-4">R$ 200,00</p>
+            <a href="#" class="btn btn-primary">Adicionar +</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <script src="./lib/js_bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
